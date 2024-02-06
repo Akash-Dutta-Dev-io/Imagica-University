@@ -17,7 +17,7 @@ function App() {
         <Container>
           <Navbar.Brand>
             <Link to='/' className='navbar-brand d-flex align-items-center text-center text-light'>
-              Makaut <br/>University
+              Bca <br/>University
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-light' />
