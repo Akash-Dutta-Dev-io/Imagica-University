@@ -1,0 +1,25 @@
+.faq-section p,
+.accordian{
+    width: 75%;
+}
+
+.accordian .accordian-button:focus,
+.accordian .accordian-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordian .accordian-button:not(.collapsed){
+    background-color: red;
+    color: white;
+}
+
+.accordian .accordian-button:not(.collapsed)::after{
+    filter: invert();
+}
+
+@media only screen and (max-width:992px){
+    .faq-section p,
+    .accordian{
+        width: 100%;
+    }
+}
